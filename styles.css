@@ -277,7 +277,9 @@ footer {
 .media a::after {
   color: black;
 }
-
+.media a {
+  color: black;
+}
 .copyright {
   font-size: 20px;
 }
@@ -296,10 +298,23 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+  }
+
+  .nav-bar {
+    width: 100%;
+    padding: 10;
+  }
+  .nav-right {
+    font-size: 12px;
+  }
   .main-page {
-    background: url(./photos/mobile1.jpg);
+    background: url(./photos/5570173.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 120vh;
+    width: 100%;
   }
 }
